@@ -1,0 +1,55 @@
+// FOOTER
+// ------------------------------------------------------------------------------
+
+#footer {
+	width: 100%; 
+	padding: 30px 0; 
+	background: #572600; 
+	color: #fff; 
+	overflow: auto;
+}
+
+#footer a {
+	color: inherit;
+}
+
+#footer .box {
+	float: left; 
+	padding-right: 50px; 
+	margin: 0 50px 20px 0;
+}
+
+.right {
+	float: right;
+}
+
+.right img {
+	display: block; 
+	float: right;
+}
+
+#footer p {
+	font-size: 0.8em; 
+	line-height: 1.5em; 
+	margin-bottom: 1.2em;
+}
+
+#footer ul li {
+	line-height: 1.2em;
+}
+#footer ul li a {
+	font-size: 0.8em; 
+	color: #fff;
+}
+
+#footer .signoff {
+	clear: both; 
+	width: 100%; 
+	padding-top: 10px; 
+	border-top: 1px solid #80634c; 
+	color: #80634c;
+}
+
+#footer .signoff p {
+	margin-bottom: 0;
+}
