@@ -1,9 +1,14 @@
 // GENERAL STYLES
 // ------------------------------------------------------------------------------
+// Includes
+@import 'variables';
 
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
+// Classes
+*,
+*:after,
+*:before {
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -11,7 +16,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   height: 100%;
-  background: #572600;
+  background: $darker-red;
 }
 
 p {
@@ -28,6 +33,7 @@ a:hover {
   text-decoration: none;
 }
 
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
