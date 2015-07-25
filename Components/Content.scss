@@ -1,208 +1,129 @@
 // CONTENT
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
+------------------------------------------------------------------------------
 
 #main-content {
-  background: #e5e5e5;
+	background:#e5e5e5;
 }
 
 //#main-content {background-color: #934722; background-image: url('http://wordpress.scoutsinfo.be/wp-content/uploads/2014/08/background.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll;}
 
 .content-wrapper {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 50px 30px;
+	width:100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 50px 30px;
 }
 
 #slider {
-  width: 100%;
-  max-width: 960px;
-  margin-bottom: 40px;
+	width: 100%;
+	max-width: 960px;
+	margin-bottom: 40px;
 }
 
 .vereniging-titel {
-  width: 100%;
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  overflow: auto;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	overflow: auto;
 }
 
 .vereniging-titel .left {
-  float: left;
-  width: 60%;
+	float: left;
+	width: 60%;
 }
 
 .map {
-  float: right;
-  width: 35%;
-  min-height: 250px;
-  border: 1px solid #e5e5e5;
+	float: right;
+	width: 35%;
+	min-height: 250px;
+	border: 1px solid #e5e5e5;
 }
 
 p.ondertitel {
-  margin-top: -1.5em;
+	margin-top: -1.5em;
 }
 
 // added by Joris start
 
 .takkenitem {
-  background: none repeat scroll 0 0 #fcfcfc;
-  border: 1px solid #d7d4cc;
-  border-radius: 5px;
-  line-height: 22px;
-  margin: 15px auto;
-  padding: 10px;
-  width: 800px;
+	background: none repeat scroll 0 0 #fcfcfc;
+	border: 1px solid #d7d4cc;
+	border-radius: 5px;
+	line-height: 22px;
+	margin: 15px auto;
+	padding: 10px;
+	width: 800px;
 }
 
 .takkenitem img.alignleft {
-  float: left;
-  margin: 5px;
+	float: left;
+	margin: 5px;
 }
 
 .takkenitem h2 {
-  border-bottom: 1px dashed #92b484;
-  color: #92b484;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 10px;
+	border-bottom: 1px dashed #92b484;
+	color: #92b484;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 .takkenitem li {
-  margin: 15px;
+	margin: 15px;
 }
 
 .leidingitem {
-  background: none repeat scroll 0 0 #fcfcfc;
-  border: 1px solid #d7d4cc;
-  border-radius: 5px;
-  line-height: 22px;
-  padding: 20px;
-  width: 100%;
-  overflow: auto;
-  margin-bottom: 15px;
+	background: none repeat scroll 0 0 #fcfcfc;
+	border: 1px solid #d7d4cc;
+	border-radius: 5px;
+	line-height: 22px;
+	padding: 20px;
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 15px;
 }
-
-.leidingitem:last-of-type {
-  margin-bottom: 0;
-}
+.leidingitem:last-of-type {margin-bottom: 0;}
 
 .leidingitem img {
-  float: left;
-  margin: 0 30px 30px 0
+	float: left;
+	margin: 0 30px 30px 0
 }
 
 .leidingitem li {
-  margin: 15px;
+	margin: 15px;
 }
 
 .more {
-  color: #aaaca4;
-  font-size: 10px;
+	color: #aaaca4;
+	font-size: 10px;
 }
 
 .clear {
-  clear: both;
+	clear: both;
 }
 
 .logos {
-  position: relative;
-  // background: #748d26 url('images/header.jpg') repeat-x;
-  width: 100%; /* for IE 6 */
+	position: relative;
+	// background: #748d26 url('images/header.jpg') repeat-x;
+	width: 100%; /* for IE 6 */
 }
 
+
 .logos .test {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 100%;
-  // color: #ffffff;
-  font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 100%;
+	// color: #ffffff;
+	font-weight: bold;
 }
 
 .logos .test2 {
-  position: absolute;
-  top: 15px;
-  left: -20px;
-  width: 100%;
-  color: #ffffff;
+	position: absolute;
+	top: 15px;
+	left: -20px;
+	width: 100%;
+	color: #ffffff;
 }
