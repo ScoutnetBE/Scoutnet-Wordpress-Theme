@@ -16,7 +16,11 @@ h2 {
 
 h5 {
   color: $yellow;
-  font-size: .9em;
-  font-weight: 600;
+
+  font: {
+    size: .9em;
+    weight: 600;
+  }
+
   margin-bottom: 1.2em;
 }

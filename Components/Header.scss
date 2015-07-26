@@ -6,7 +6,7 @@
 // Classes
 #header {
   width: 100%;
-  background: #fff;
+  background: $lighter-white;
   padding: 20px 0;
 }
 
@@ -18,14 +18,15 @@
   margin-right: 30px;
 }
 
+
 .titel {
   float: left;
   max-width: 600px;
-}
 
-.titel h1 {
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+  }
 }
 
 .sn_search {
@@ -37,8 +38,8 @@
   padding: 0 10px;
   margin-top: 18px;
   background: #fff url('images/icon-search.png') no-repeat 170px center;
-}
 
-.sn_search:focus {
-  border: 1px solid #bdd732;
+  &:focus {
+    border: 1px solid #bdd732;
+  }
 }

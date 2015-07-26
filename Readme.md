@@ -1,2 +1,2 @@
-Sass port voor Wordpress theme Scoutnet
+Scoutnet - SCSS Wordpress template.
 ========================================
