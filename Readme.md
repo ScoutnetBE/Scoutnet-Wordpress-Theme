@@ -1,6 +1,9 @@
 Scoutnet - SCSS Wordpress template.
 ========================================
 
+[![Build Status](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme.svg?branch=%23fix-SCSS-lint-issues)](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme)
+
+
 ## Requirements. 
 
 - Ruby. 
