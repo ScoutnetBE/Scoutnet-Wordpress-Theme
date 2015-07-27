@@ -148,7 +148,7 @@
 #main-nav ul ul li ul {
   // target all second, third, and deeper level sub menus
   left: 150px; // this needs to match the sub menu width set above -- width + padding + borders
-  top: 0; // this ensures the sub menu starts in line with its parent item
+  top: 0;      // this ensures the sub menu starts in line with its parent item
 }
 
 #main-nav .current_page_item > a,
