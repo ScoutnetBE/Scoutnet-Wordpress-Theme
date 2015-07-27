@@ -57,8 +57,12 @@
 //		display: inline-block;
 // }
 
+
+// includes
+@import "Variables";
+
 .main-navigation {
-  background: #fff;
+  background: $lighter-white;
   border: 2px solid #333;
   border-radius: 3px;
   clip: auto !important;
@@ -100,7 +104,7 @@
   height: 50px;
   line-height: 50px;
   padding: 0 10px;
-  color: #fff;
+  color: $lighter-white;
   font-size: .95em;
   font-weight: 700;
   text-decoration: none;

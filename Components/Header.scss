@@ -37,7 +37,7 @@
   border: 1px solid #eaeaea;
   padding: 0 10px;
   margin-top: 18px;
-  background: #fff url('images/icon-search.png') no-repeat 170px center;
+  background: $lighter-white url('images/icon-search.png') no-repeat 170px center;
 
   &:focus {
     border: 1px solid #bdd732;
