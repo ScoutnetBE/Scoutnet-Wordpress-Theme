@@ -1,5 +1,7 @@
 // CONTENT
 // ------------------------------------------------------------------------------
+// Includes 
+@import "Variables";
 
 #main-content {
   background: #e5e5e5;
@@ -9,7 +11,7 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  background: #fff;
+  background: $lighter-white;
   padding: 50px 30px;
 }
 
@@ -124,6 +126,6 @@ p.ondertitel {
     top: 15px;
     left: -20px;
     width: 100%;
-    color: #ffffff;
+    color: $lighter-white;
   }
 }
