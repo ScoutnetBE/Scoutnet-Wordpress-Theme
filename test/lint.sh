@@ -1,8 +1,8 @@
 #!/bin/bash
 
-lines = scss-lint | tee >(wc -l)
+command= scss-lint | tee >(wc -l)
 
-if [ lines === 0 ]; then
+if [ $command === 0 ]; then
     echo Success
 else
     exit
