@@ -78,21 +78,21 @@
   background: #748d26 url('images/buttons-bg.png') repeat-x;
   text-align: center;
   height: 50px; // set to the height you want your menu to be
-}
 
-#main-nav ul {
-  margin: 0;
-  padding: 0; // only needed if you have not done a CSS reset
-}
+  ul {
+    margin: 0;
+    padding: 0; // only needed if you have not done a CSS reset
+  }
 
-#main-nav li {
-  display: block;
-  float: left;
-  line-height: 50px; // this should be the same as your #main-nav height
-  height: 50px; // this should be the same as your #main-nav height
-  margin: 0;
-  padding: 0; // only needed if you don't have a reset
-  position: relative; // this is needed in order to position sub menus
+  li {
+    display: block;
+    float: left;
+    line-height: 50px;   // this should be the same as your #main-nav height
+    height: 50px;        // this should be the same as your #main-nav height
+    margin: 0;
+    padding: 0;          // only needed if you don't have a reset
+    position: relative;  // this is needed in order to position sub menus
+  }
 }
 
 #main-nav li a {
@@ -128,7 +128,7 @@
   background: #748d26;
   text-transform: lowercase;
   border-bottom: 1px solid #5f751b;
-  font-size: 0.8em;
+  font-size: .8em;
 }
 
 #main-nav ul ul li a {
