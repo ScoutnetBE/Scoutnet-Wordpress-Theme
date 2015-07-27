@@ -255,22 +255,22 @@
 h2.entry-cat {
   font-size: 1.5em;
   color: #666;
-  margin-bottom: 0.3em;
+  margin-bottom: .3em;
   font-weight: bold;
 }
 
 span.entry-date {
-  background: url(images/icon-clock.png) no-repeat left 5px;
+  background:url('images/icon-clock.png') no-repeat left 5px;
   padding-left: 18px;
-  font-size: 0.9em;
+  font-size: .9em;
   color: $light-gray;
   font-weight: normal;
 }
 
 .reply {
-  background: url(images/icon-comments.png) no-repeat;
+  background:url('images/icon-comments.png') no-repeat;
   padding-left: 18px;
-  font-size: 0.9em;
+  font-size: .9em;
   color: $light-gray;
   font-weight: normal;
   margin-right: 10px;
@@ -278,9 +278,9 @@ span.entry-date {
 }
 
 .comment-edit-link {
-  background: url(images/icon-edit.png) no-repeat;
+  background:url('images/icon-edit.png') no-repeat;
   padding-left: 18px;
-  font-size: 0.9em;
+  font-size: .9em;
   color: $light-gray;
   font-weight: normal;
   margin-right: 10px;
