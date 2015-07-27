@@ -1,5 +1,6 @@
 script:
  - "test/travis.rb"
+ - "test/lint.sh"
 
 language: sass
 before_install:
