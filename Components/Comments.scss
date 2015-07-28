@@ -270,11 +270,17 @@ span.entry-date {
 .reply {
   background:url('images/icon-comments.png') no-repeat;
   padding-left: 18px;
-  font-size: .9em;
   color: $light-gray;
-  font-weight: normal;
-  margin-right: 10px;
-  margin-bottom: 20px;
+
+  font: {
+    size: .9em;
+    weight: normal;
+  }
+
+  margin: {
+    right: 10px;
+    bottom: 20px;
+  }
 }
 
 .comment-edit-link {
@@ -283,8 +289,11 @@ span.entry-date {
   font-size: .9em;
   color: $light-gray;
   font-weight: normal;
-  margin-right: 10px;
-  margin-bottom: 20px;
+
+  margin: {
+    right: 10px;
+    bottom: 20px;
+  }
 }
 
 .comment-meta {

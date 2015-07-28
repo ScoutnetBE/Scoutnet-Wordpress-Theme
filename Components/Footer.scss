@@ -1,19 +1,19 @@
 // FOOTER
 // ------------------------------------------------------------------------------
 // Includes
-@import "Variables";
+@import 'Variables';
 
 #footer {
-  width: 100%;
-  padding: 30px 0;
-  background: #572600;
+  background: $darker-red;
   color: $lighter-white;
   overflow: auto;
+  width: 100%;
+  padding: 30px 0;
 
   .box {
     float: left;
-    padding-right: 50px;
     margin: 0 50px 20px 0;
+    padding-right: 50px;
 
     a {
       color: inherit;
@@ -40,8 +40,8 @@
   }
 
   #footer ul li a {
-    font-size: .8em;
     color: $lighter-white;
+    font-size: .8em;
   }
 
   #footer .signoff {
