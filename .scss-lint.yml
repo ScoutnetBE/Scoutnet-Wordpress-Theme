@@ -1,0 +1,8 @@
+Indentation:
+  width: 2
+
+linters:
+  BorderZero:
+    enabled: false
+  IdSelector:
+    enabled: false
