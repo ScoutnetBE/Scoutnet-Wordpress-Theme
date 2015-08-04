@@ -1,6 +1,6 @@
 // CONTENT
 // ------------------------------------------------------------------------------
-// Includes 
+// Includes
 @import "Variables";
 
 #main-content {
@@ -55,23 +55,22 @@ p.ondertitel {
   margin: 15px auto;
   padding: 10px;
   width: 800px;
+
+  h2 {
+   border-bottom: 1px dashed #92b484;
+   color: #92b484;
+   font-size: 14px;
+   font-weight: bold;
+   margin-bottom: 10px;
+
+  li {
+   margin: 15px;
+  }
 }
 
 .takkenitem img.alignleft {
   float: left;
   margin: 5px;
-}
-
-.takkenitem h2 {
-  border-bottom: 1px dashed #92b484;
-  color: #92b484;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.takkenitem li {
-  margin: 15px;
 }
 
 .leidingitem {

@@ -34,12 +34,12 @@
   float: right;
   width: 200px;
   height: 25px;
-  border: 1px solid #eaeaea;
+  border: 1px solid $light-white;
   padding: 0 10px;
   margin-top: 18px;
   background: $lighter-white url('images/icon-search.png') no-repeat 170px center;
 
   &:focus {
-    border: 1px solid #bdd732;
+    border: 1px solid $yellow;
   }
 }

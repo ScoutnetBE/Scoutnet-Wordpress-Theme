@@ -1,7 +1,7 @@
-// Navigation Menu 
+// Navigation Menu
 // ----------------------------------------
 
-// Assistive text 
+// Assistive text
 
 // .assistive-text,
 // .site .screen-reader-text {
@@ -105,8 +105,12 @@
   line-height: 50px;
   padding: 0 10px;
   color: $lighter-white;
-  font-size: .95em;
-  font-weight: 700;
+
+  font: {
+    size: .95em;
+    weight: 700;
+  }
+  
   text-decoration: none;
   text-transform: uppercase;
 
