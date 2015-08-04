@@ -1,0 +1,299 @@
+// CONTENT
+// ------------------------------------------------------------------------------
+
+#main-content {
+  background: #e5e5e5;
+}
+
+//
+// #main-content {
+//   background-color: #934722;
+//   background-image: url('http://wordpress.scoutsinfo.be/wp-content/uploads/2014/08/background.png');
+//   background-repeat: repeat;
+//   background-position: top left;
+//   background-attachment: scroll;
+// }
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 50px 30px;
+}
+
+#slider {
+  width: 100%;
+  max-width: 960px;
+  margin-bottom: 40px;
+}
+
+.vereniging-titel {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  overflow: auto;
+
+  .left {
+    float: left;
+    width: 60%;
+  }
+}
+
+.map {
+  float: right;
+  width: 35%;
+  min-height: 250px;
+  border: 1px solid #e5e5e5;
+}
+
+p.ondertitel {
+  margin-top: -1.5em;
+}
+
+// added by Joris start
+
+.takkenitem {
+  background: none repeat scroll 0 0 #fcfcfc;
+  border: 1px solid #d7d4cc;
+  border-radius: 5px;
+  line-height: 22px;
+  margin: 15px auto;
+  padding: 10px;
+  width: 800px;
+
+  img.alignleft {
+    float: left;
+    margin: 5px;
+  }
+}
+
+.takkenitem h2 {
+  border-bottom: 1px dashed $meloen-groen;
+  color: $meloen-groen;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.takkenitem li {
+  margin: 15px;
+}
+
+.leidingitem {
+  background: none repeat scroll 0 0 #fcfcfc;
+  border: 1px solid #d7d4cc;
+  border-radius: 5px;
+  line-height: 22px;
+  padding: 20px;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+.leidingitem:last-of-type {
+  margin-bottom: 0;
+}
+
+// .leidingitem img {
+//    float: left;
+//    margin: 0 30px 30px 0
+// }
+
+
+.leidingitem li {
+  margin: 15px;
+}
+
+.more {
+  color: #aaaca4;
+  font-size: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+// Assistive text
+
+// .assistive-text,
+// .site .screen-reader-text {
+//    position: absolute !important;
+//    clip: rect(1px, 1px, 1px, 1px);
+// }
+
+// .main-navigation .assistive-text:focus {
+//   background: #fff;
+//   border: 2px solid #333;
+//   border-radius: 3px;
+//   clip: auto !important;
+//   color: #000;
+//   display: block;
+//   font-size: 12px;
+//   padding: 12px;
+//   position: absolute;
+//   top: 5px;
+//   left: 5px;
+//   z-index: 100000; /* Above WP toolbar */
+// }
+
+// Navigation Menu
+
+// .main-navigation {
+//   margin-top: 24px;
+//	 margin-top: 1.714285714rem;
+//	 text-align: center;
+// }
+
+// .main-navigation li {
+//   margin-top: 24px;
+//   margin-top: 1.714285714rem;
+//   font-size: 12px;
+//   font-size: .857142857rem;
+//   line-height: 1.42857143;
+// }
+
+// .main-navigation a {
+//   color: #5e5e5e;
+// }
+
+// .main-navigation a:hover,
+// .main-navigation a:focus {
+//   color: #21759b;
+// }
+
+// .main-navigation ul.nav-menu,
+// .main-navigation div.nav-menu > ul {
+//   display: none;
+// }
+
+// .main-navigation ul.nav-menu.toggled-on,
+// .menu-toggle {
+//   display: inline-block;
+// }
+
+.main-navigation {
+  clip: auto !important;
+  color: $zwart;
+  display: block;
+  font-size: 12px;
+  z-index: 100001; // Above WP toolbar.
+}
+
+#main-nav {
+  width: 100%;
+  min-height: 50px;
+  background: #748d26 url($image-buttons-backgound) repeat-x;
+  text-align: center;
+  height: 50px; // set to the height you want your menu to be
+}
+
+#main-nav ul {
+  margin: 0;
+  padding: 0; // only needed if you have not done a CSS reset
+}
+
+#main-nav li {
+  display: block;
+  float: left;
+  line-height: 50px;  // this should be the same as your #main-nav height
+  height: 50px;       // this should be the same as your #main-nav height
+  margin: 0;
+  padding: 0;         // only needed if you don't have a reset
+  position: relative; // this is needed in order to position sub menus
+}
+
+#main-nav li a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  color: #fff;
+
+  font: {
+    size: .95em;
+    weight: 700;
+  }
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+#main-nav li:hover > a {
+  color: #4e620f;
+}
+
+#main-nav ul ul {
+  // this targets all sub menus
+  display: none;      // hide all sub menus from view
+  position: absolute;
+  top: 35px;          // this should be the same height as the top level menu -- height + padding + borders
+}
+
+#main-nav ul ul li {
+  // this targets all submenu items
+  background: #748d26;
+  border-bottom: 1px solid $main-nav-green;
+  color: $zwart;
+  float: none;  // overwriting our float up above
+  font-size: .8em;
+  text-transform: lowercase;
+  width: 200px; // set to the width you want your sub menus to be. This needs to match the value we set below
+  z-index: 50000;
+}
+
+#main-nav ul ul li a {
+  // target all sub menu item links
+  height: auto;
+  padding: 5px 10px; // give our sub menu links a nice button feel
+}
+
+#main-nav ul li:hover > ul {
+  display: block; // show sub menus when hovering over a parent
+}
+
+#main-nav ul ul li ul {
+  // target all second, third, and deeper level sub menus
+  left: 150px; // this needs to match the sub menu width set above -- width + padding + borders
+  top: 0;      // this ensures the sub menu starts in line with its parent item
+}
+
+#main-nav .current_page_item > a,
+#main-nav .current_page_ancestor > a,
+#main-nav .current_page_parent > a {
+  color: #4e620f;
+  font-weight: bold;
+}
+
+#main-nav li.first {
+  background: url($image-home) no-repeat center 12px;
+  margin: 0 10px;
+}
+
+#main-nav li.first:hover {
+  background: url($image-home-hover) no-repeat center 12px;
+}
+
+.logos {
+  position: relative;
+  width: 100%; // for IE 6
+
+  .test {
+    font-weight: bold;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    // color: #ffffff;
+  }
+
+  .test2 {
+    color: #fff;
+    left: -20px;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+  }
+}

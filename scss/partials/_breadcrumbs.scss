@@ -1,15 +1,11 @@
 // BREADCRUMBS
 // ------------------------------------------------------------------------------
 
-// Imports
-@import 'Variables';
-
-// Classes
 .breadcrumbs {
-  border-bottom: 1px solid $white;
-  color: $gray;
-  font-size: .8em;
+  width: 100%;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: .8em;
+  color: $dark-gray;
 }

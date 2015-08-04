@@ -1,7 +1,5 @@
 // Images
-// ---------------------------------
-// Includes
-@import 'Variables';
+// ------------------------------------------------------
 
 .alignleft {
   float: left;
@@ -20,8 +18,8 @@
   }
 }
 
-figure.wp-caption.alignleft,
-img.alignleft {
+figure .wp-caption .alignleft,
+img .alignleft {
   margin: 5px 20px 5px 0;
 }
 
@@ -29,8 +27,8 @@ img.alignleft {
   margin: 5px 10px 5px 0;
 }
 
-figure.wp-caption .alignright,
-img.alignright {
+figure .wp-caption.alignright,
+img .alignright {
   margin: 5px 0 5px 20px;
 }
 
@@ -38,18 +36,18 @@ img.alignright {
   margin: 5px 0 5px 10px;
 }
 
-img.aligncenter {
+img .aligncenter {
   margin: 5px auto;
 }
 
-img.alignnone {
+img .alignnone {
   margin: 5px 0;
 }
 
 .wp-caption .wp-caption-text,
 .entry-caption,
 .gallery-caption {
-  color: $black;
+  color: #220e10;
 
   font: {
     size: 18px;

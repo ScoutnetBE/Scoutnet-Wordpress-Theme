@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*
+Theme Name: Scoutnet
+Theme URI: http://www.scoutnet.be
+Description: Theme voor Scouts en Gidsen Vlaanderen
+Author: Scoutnet
+Author URI: http://www.scoutnet.be
+Version: 1.0
+*/
+
+@import 'modules/variables';
+
+@import 'partials/fonts';
+@import 'partials/reset';
+@import 'partials/general';
+@import 'partials/headings';
+@import 'partials/wrapper';
+@import 'partials/header';
+@import 'partials/buttons';
+@import 'partials/breadcrumbs';
+@import 'partials/content';
+@import 'partials/images';
+@import 'partials/comments';
+@import 'partials/events';
+@import 'partials/footer';
