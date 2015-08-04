@@ -1,22 +1,12 @@
 // GENERAL STYLES
 // ------------------------------------------------------------------------------
-// Includes
-@import 'Variables';
 
-// Classes
 *,
 *:after,
 *:before {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-body {
-  background: $darker-red;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  height: 100%;
 }
 
 p {
@@ -33,7 +23,6 @@ a {
   }
 }
 
-b,
-strong {
+b, strong {
   font-weight: bold;
 }

@@ -1,14 +1,15 @@
 // BUTTONS
 // ------------------------------------------------------------------------------
-// Includes
-@import 'Variables';
 
-// Classes
 #buttons {
   width: 100%;
   height: 50px;
-  background: $military-green url('images/buttons-bg.png') repeat-x;
+  background: $kaki-groen url($image-buttons-backgound) repeat-x;
   text-align: center;
+
+  ul li a:hover {
+    color: #5b7115;
+  }
 }
 
 #buttons ul li {
@@ -17,12 +18,8 @@
 }
 
 #buttons ul li a {
-  color: $lighter-white;
+  color: #fff;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-#buttons ul li a:hover {
-  color: $darker-military-green;
 }

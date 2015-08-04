@@ -47,9 +47,6 @@ center,
 dl,
 dt,
 dd,
-ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -71,7 +68,6 @@ figure,
 figcaption,
 footer,
 header,
-hgroup,
 menu,
 nav,
 output,
@@ -82,15 +78,14 @@ time,
 mark,
 audio,
 video {
-  border: 0;
-  font: inherit;
-  font-size: 100%;
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-// HTML5 display-role reset for older browsers 
+// HTML5 display-role reset for older browsers
 article,
 aside,
 details,
@@ -98,7 +93,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 menu,
 nav,
 section {
@@ -106,13 +100,16 @@ section {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  background: #572600;
 }
 
-ol,
-ul {
-  list-style: none;
-}
+// ol, ul {
+//   list-style: none;
+// }
 
 blockquote,
 q {
@@ -127,8 +124,17 @@ q:after {
 }
 
 table {
-  border: {
-    collapse: collapse;
-    spacing: 0;
-  }
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table,
+td,
+th {
+  border: 1px solid $kaki-groen;
+  font-size: 95%;
+}
+
+td {
+  padding: 8px;
 }
