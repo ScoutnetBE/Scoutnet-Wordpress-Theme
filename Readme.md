@@ -4,6 +4,28 @@ Scoutnet - SCSS Wordpress template.
 [![Join the chat at https://gitter.im/ScoutnetBE/Scoutnet-Wordpress-Theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScoutnetBE/Scoutnet-Wordpress-Theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme.svg?branch=%23fix-SCSS-lint-issues)](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme)
 
+## What's included in the sass folder?
+
+```bash
+scss/
+├── modules/
+│   └── _variables.scss
+├── partials/
+│   ├── _breadcrumbs.scss
+│   ├── _buttons.scss
+│   ├── _comments.scss
+│   ├── _content.scss
+│   ├── _events.scss
+│   ├── _fonts.scss
+│   ├── _footer.scss
+│   ├── _general.scss
+│   ├── _header.scss
+│   ├── _headings.scss
+│   ├── _images.scss
+│   ├── _reset.scss
+│   └── _wrapper.scss
+└── style.scss
+```
 
 ## Requirements. 
 
