@@ -43,6 +43,7 @@ scss/
 ## Compile sass 
 
 **Terminal:**
+
 Navigate to the project root directory, 
 And then run the command: 
 
