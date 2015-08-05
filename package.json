@@ -1,0 +1,25 @@
+{
+  "name": "SCSS-Wordpress-scoutnet",
+  "version": "1.0.0",
+  "description": "The SCSS port for the scoutnet wordpress theme",
+  "main": "Gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScoutnetBE/Scoutnet-Wordpress-Theme.git"
+  },
+  "author": "Tim Joosten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScoutnetBE/Scoutnet-Wordpress-Theme/issues"
+  },
+  "homepage": "https://github.com/ScoutnetBE/Scoutnet-Wordpress-Theme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
