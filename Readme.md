@@ -4,6 +4,8 @@ Scoutnet - SCSS Wordpress template.
 [![Join the chat at https://gitter.im/ScoutnetBE/Scoutnet-Wordpress-Theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScoutnetBE/Scoutnet-Wordpress-Theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme.svg?branch=%23fix-SCSS-lint-issues)](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme)
 
+The Sass file for the wodpress theme, That is currently in active development by Scoutnet Belguim. 
+
 ## What's included in the sass folder?
 
 ```bash
