@@ -42,7 +42,7 @@ scss/
 
 ## Compile sass 
 
-### Terminal:
+#### Terminal:
 
 Navigate to the project root directory, 
 And then run the command: 
@@ -50,3 +50,7 @@ And then run the command:
 ```bash 
 scss styles.scss path/to/output/<filename>.scss
 ```
+
+#### Using GulpJS:
+
+*Coming soon*
