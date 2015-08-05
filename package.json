@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ScoutnetBE/Scoutnet-Wordpress-Theme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-help": "^1.6.0"
   }
 }
