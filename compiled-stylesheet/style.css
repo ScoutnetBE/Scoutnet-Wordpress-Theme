@@ -358,7 +358,7 @@ p .ondertitel {
 }
 
 .main-navigation {
-  clip: auto !important;
+  clip: auto;
   color: #000;
   display: block;
   font-size: 12px;
@@ -372,7 +372,7 @@ p .ondertitel {
   text-align: center;
   width: 100%;
 }
-#main-nav li .first {
+#main-nav li.first {
   background: url("images/home.png") no-repeat center 12px;
   margin: 0 10px;
 }
@@ -615,13 +615,13 @@ img .alignnone {
 }
 
 .comment-edit-link {
-  margin-left: 10px;
   background: url("images/icon-edit.png") no-repeat;
   color: #999;
   font-size: .9em;
   font-weight: normal;
   margin-bottom: 20px;
   margin-right: 10px;
+  margin-left: 10px;
   padding-left: 18px;
 }
 
@@ -892,7 +892,7 @@ li .event {
 }
 
 .event-info {
-  display: block !important;
+  display: block;
 }
 
 .multi-day {
@@ -905,7 +905,7 @@ li .event {
 
 .event-title h3 {
   clear: none;
-  margin: 0 !important;
+  margin: 0;
   padding: 0;
 }
 
@@ -954,11 +954,11 @@ div .filterbar ul .hlist li + li:before {
 }
 
 #footer {
-  width: 100%;
-  padding: 30px 0;
   background: #572600;
   color: #fff;
   overflow: auto;
+  padding: 30px 0;
+  width: 100%;
 }
 #footer a {
   color: inherit;

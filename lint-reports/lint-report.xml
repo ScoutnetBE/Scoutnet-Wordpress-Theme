@@ -10,8 +10,8 @@
     <error source="SelectorDepth" line="10" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="ColorVariable" line="11" column="12" length="7" severity="warning" message="Color literals like `#5b7115` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="MergeableSelector" line="14" column="1" length="1" severity="warning" message="Merge rule `ul li` with rule on line 10" />
-    <error source="SelectorDepth" line="19" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="MergeableSelector" line="19" column="1" length="1" severity="warning" message="Merge rule `ul li a` with rule on line 14" />
+    <error source="SelectorDepth" line="19" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="ColorVariable" line="20" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_comments.scss">
@@ -64,31 +64,31 @@
     <error source="ColorVariable" line="212" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="IdSelector" line="228" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="228" column="1" length="1" severity="warning" message="Merge rule `#main-nav li:hover &gt; a` with rule on line 183" />
-    <error source="IdSelector" line="232" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="232" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul` with rule on line 183" />
-    <error source="MergeableSelector" line="239" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li` with rule on line 183" />
+    <error source="IdSelector" line="232" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="SelectorDepth" line="239" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="MergeableSelector" line="239" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li` with rule on line 183" />
     <error source="IdSelector" line="239" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="ColorVariable" line="241" column="15" length="7" severity="warning" message="Color literals like `#748d26` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="IdSelector" line="251" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="251" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li a` with rule on line 183" />
     <error source="SelectorDepth" line="251" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
     <error source="SelectorDepth" line="257" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
-    <error source="IdSelector" line="257" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="257" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul li:hover &gt; ul` with rule on line 183" />
-    <error source="IdSelector" line="261" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="IdSelector" line="257" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="261" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li ul` with rule on line 183" />
+    <error source="IdSelector" line="261" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="SelectorDepth" line="261" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
     <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_parent` should be written in lowercase with hyphens" />
+    <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_ancestor` should be written in lowercase with hyphens" />
+    <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_parent` should be written in lowercase with hyphens" />
     <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_item` should be written in lowercase with hyphens" />
-    <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="ColorVariable" line="270" column="10" length="7" severity="warning" message="Color literals like `#4e620f` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="MergeableSelector" line="274" column="1" length="1" severity="warning" message="Merge rule `#main-nav li.first:hover` with rule on line 183" />
     <error source="IdSelector" line="274" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="QualifyingElement" line="274" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
-    <error source="MergeableSelector" line="274" column="1" length="1" severity="warning" message="Merge rule `#main-nav li.first:hover` with rule on line 183" />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_events.scss">
     <error source="ImportantRule" line="18" column="3" length="40" severity="warning" message="!important should not be used" />
@@ -98,12 +98,11 @@
     <error source="SelectorDepth" line="112" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="SelectorDepth" line="128" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="SelectorDepth" line="135" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
-    <error source="SelectorDepth" line="141" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
     <error source="MergeableSelector" line="141" column="1" length="1" severity="warning" message="Merge rule `div .filterbar ul .hlist li + li:before` with rule on line 135" />
+    <error source="SelectorDepth" line="141" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_footer.scss">
     <error source="IdSelector" line="4" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="PropertySortOrder" line="5" column="3" length="11" severity="warning" message="Properties should be ordered background, color, overflow, padding, width" />
     <error source="SelectorDepth" line="55" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_general.scss">
