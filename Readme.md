@@ -33,6 +33,7 @@ scss/
 ## Requirements. 
 
 - Ruby. 
+- NodeJS
 - Ruby gem scss
 
 ## Installation.
@@ -49,11 +50,12 @@ Navigate to the project root directory,
 And then run the command: 
 
 ```bash 
-scss styles.scss path/to/output/<filename>.scss
+scss stIdSelectoryles.scss path/to/output/<filename>.scss
 ```
 
 #### Using GulpJS:
 
 1. navigate the to project foler. 
-2. type `gulp help` for displaying a description off the build in commands. 
-3. or type `gulp compile` to create the css cheet.
+2. Install the dependencies with `npm install`.
+3. type `gulp help` for displaying a description off the build in commands. 
+4. or type `gulp compile` to create the css cheet.
