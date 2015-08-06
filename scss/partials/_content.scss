@@ -86,10 +86,10 @@ p.ondertitel {
   border: 1px solid #d7d4cc;
   border-radius: 5px;
   line-height: 22px;
+  margin-bottom: 15px;
+  overflow: auto;
   padding: 20px;
   width: 100%;
-  overflow: auto;
-  margin-bottom: 15px;
 }
 
 .leidingitem:last-of-type {
@@ -182,11 +182,11 @@ p.ondertitel {
 }
 
 #main-nav {
-  width: 100%;
-  min-height: 50px;
   background: #748d26 url($image-buttons-backgound) repeat-x;
-  text-align: center;
   height: 50px; // set to the height you want your menu to be
+  min-height: 50px;
+  text-align: center;
+  width: 100%;
 }
 
 #main-nav ul {
