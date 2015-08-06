@@ -53,6 +53,6 @@ scss styles.scss path/to/output/<filename>.scss
 
 #### Using GulpJS:
 
-1) navigate the to project foler. 
-2) type `gulp help` for displaying a description off the build in commands. 
-3) or type `gulp compile` to create the css cheet.
+1. navigate the to project foler. 
+2. type `gulp help` for displaying a description off the build in commands. 
+3. or type `gulp compile` to create the css cheet.
