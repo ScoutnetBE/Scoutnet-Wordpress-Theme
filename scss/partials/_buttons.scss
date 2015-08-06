@@ -10,16 +10,16 @@
   ul li a:hover {
     color: #5b7115;
   }
-}
 
-#buttons ul li {
-  display: inline;
-  margin: 0 10px;
-}
+  ul li {
+    display: inline;
+    margin: 0 10px;
+  }
 
-#buttons ul li a {
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  text-transform: uppercase;
+  ul li a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
