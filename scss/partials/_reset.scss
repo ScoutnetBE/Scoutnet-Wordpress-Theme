@@ -78,10 +78,10 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
   border: 0;
   font-size: 100%;
+  margin: 0;
+  padding: 0;
   vertical-align: baseline;
 }
 
@@ -99,12 +99,14 @@ section {
   display: block;
 }
 
+
+// todo: Optimize font attributes.
 body {
-  line-height: 1.2;
+  background: $darker-red;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   height: 100%;
-  background: #572600;
+  line-height: 1.2;
 }
 
 // ol, ul {

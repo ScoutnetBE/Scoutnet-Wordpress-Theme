@@ -1,5 +1,5 @@
 .event-date {
-  color: #fff;
+  color: $header-white;
 
   font: {
     size: 14px;
@@ -20,7 +20,7 @@ ul .single-event-view {
   padding: 0;
 }
 
-li.event {
+li .event {
   clear: both;
   margin: 0 .5em 2.5em;
   zoom: 1;
@@ -108,14 +108,14 @@ li.event {
 
 div .feed {
   display: block;
-}
 
-div .feed a * {
-  vertical-align: middle;
-}
+  a * {
+    vertical-align: middle;
+  }
 
-div .feed img {
-  margin: 0 5px 0 2px;
+  img {
+    margin: 0 5px 0 2px;
+  }
 }
 
 div .filterbar,

@@ -8,11 +8,11 @@
 }
 
 .logo {
+  border: 0;
   float: left;
   height: 80px;
-  border: 0;
-  width: auto;
   margin-right: 30px;
+  width: auto;
 }
 
 .titel {
@@ -26,16 +26,16 @@
 }
 
 .sn_search {
+  background: $header-white url($image-search) no-repeat 170px center;
+  border: 1px solid $search-white;
   display: inline-block;
   float: right;
-  width: 200px;
   height: 25px;
-  border: 1px solid #eaeaea;
-  padding: 0 10px;
   margin-top: 18px;
-  background: #fff url($image-search) no-repeat 170px center;
+  padding: 0 10px;
+  width: 200px;
 
   &:focus {
-    border: 1px solid #bdd732;
+    border: 1px solid $licht-groen;
   }
 }

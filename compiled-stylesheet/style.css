@@ -87,10 +87,10 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
   border: 0;
   font-size: 100%;
+  margin: 0;
+  padding: 0;
   vertical-align: baseline;
 }
 
@@ -108,11 +108,11 @@ section {
 }
 
 body {
-  line-height: 1.2;
+  background: #572600;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   height: 100%;
-  background: #572600;
+  line-height: 1.2;
 }
 
 blockquote,
@@ -146,8 +146,8 @@ td {
 *,
 *:after,
 *:before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -164,7 +164,8 @@ a:hover {
   text-decoration: none;
 }
 
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
@@ -205,11 +206,11 @@ h5 {
 }
 
 .logo {
+  border: 0;
   float: left;
   height: 80px;
-  border: 0;
-  width: auto;
   margin-right: 30px;
+  width: auto;
 }
 
 .titel {
@@ -222,14 +223,14 @@ h5 {
 }
 
 .sn_search {
+  background: #fff url("images/icon-search.png") no-repeat 170px center;
+  border: 1px solid #eaeaea;
   display: inline-block;
   float: right;
-  width: 200px;
   height: 25px;
-  border: 1px solid #eaeaea;
-  padding: 0 10px;
   margin-top: 18px;
-  background: #fff url("images/icon-search.png") no-repeat 170px center;
+  padding: 0 10px;
+  width: 200px;
 }
 .sn_search:focus {
   border: 1px solid #bdd732;
@@ -277,17 +278,17 @@ h5 {
 }
 
 #slider {
-  width: 100%;
-  max-width: 960px;
   margin-bottom: 40px;
+  max-width: 960px;
+  width: 100%;
 }
 
 .vereniging-titel {
-  width: 100%;
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 20px;
-  padding-bottom: 20px;
   overflow: auto;
+  padding-bottom: 20px;
+  width: 100%;
 }
 .vereniging-titel .left {
   float: left;
@@ -295,13 +296,13 @@ h5 {
 }
 
 .map {
-  float: right;
-  width: 35%;
-  min-height: 250px;
   border: 1px solid #e5e5e5;
+  float: right;
+  min-height: 250px;
+  width: 35%;
 }
 
-p.ondertitel {
+p .ondertitel {
   margin-top: -1.5em;
 }
 
@@ -314,11 +315,10 @@ p.ondertitel {
   padding: 10px;
   width: 800px;
 }
-.takkenitem img.alignleft {
+.takkenitem img .alignleft {
   float: left;
   margin: 5px;
 }
-
 .takkenitem h2 {
   border-bottom: 1px dashed #92b484;
   color: #92b484;
@@ -326,7 +326,6 @@ p.ondertitel {
   font-weight: bold;
   margin-bottom: 10px;
 }
-
 .takkenitem li {
   margin: 15px;
 }
@@ -336,18 +335,17 @@ p.ondertitel {
   border: 1px solid #d7d4cc;
   border-radius: 5px;
   line-height: 22px;
+  margin-bottom: 15px;
+  overflow: auto;
   padding: 20px;
   width: 100%;
-  overflow: auto;
-  margin-bottom: 15px;
+}
+.leidingitem li {
+  margin: 15px;
 }
 
 .leidingitem:last-of-type {
   margin-bottom: 0;
-}
-
-.leidingitem li {
-  margin: 15px;
 }
 
 .more {
@@ -368,11 +366,15 @@ p.ondertitel {
 }
 
 #main-nav {
-  width: 100%;
-  min-height: 50px;
   background: #748d26 url("images/buttons-bg.png") repeat-x;
-  text-align: center;
   height: 50px;
+  min-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+#main-nav li .first {
+  background: url("images/home.png") no-repeat center 12px;
+  margin: 0 10px;
 }
 
 #main-nav ul {
@@ -383,21 +385,21 @@ p.ondertitel {
 #main-nav li {
   display: block;
   float: left;
-  line-height: 50px;
   height: 50px;
+  line-height: 50px;
   margin: 0;
   padding: 0;
   position: relative;
 }
 
 #main-nav li a {
+  color: #fff;
   display: block;
+  font-size: .95em;
+  font-weight: 700;
   height: 50px;
   line-height: 50px;
   padding: 0 10px;
-  color: #fff;
-  font-size: .95em;
-  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -442,11 +444,6 @@ p.ondertitel {
 #main-nav .current_page_parent > a {
   color: #4e620f;
   font-weight: bold;
-}
-
-#main-nav li.first {
-  background: url("images/home.png") no-repeat center 12px;
-  margin: 0 10px;
 }
 
 #main-nav li.first:hover {
@@ -664,14 +661,13 @@ img .alignnone {
   margin-bottom: 24px;
   padding: 0;
 }
-
-.comment .comment-respond {
-  margin-top: 24px;
-}
-
 .comment-respond h3 {
   margin-bottom: 24px;
   margin-top: 0;
+}
+
+.comment .comment-respond {
+  margin-top: 24px;
 }
 
 .comment-notes,
@@ -843,7 +839,7 @@ ul .single-event-view {
   padding: 0;
 }
 
-li.event {
+li .event {
   clear: both;
   margin: 0 .5em 2.5em;
   zoom: 1;
@@ -925,11 +921,9 @@ li.event {
 div .feed {
   display: block;
 }
-
 div .feed a * {
   vertical-align: middle;
 }
-
 div .feed img {
   margin: 0 5px 0 2px;
 }
@@ -971,8 +965,8 @@ div .filterbar ul .hlist li + li:before {
 }
 #footer .box {
   float: left;
-  padding-right: 50px;
   margin: 0 50px 20px 0;
+  padding-right: 50px;
 }
 #footer p {
   font-size: .8em;
@@ -998,19 +992,16 @@ div .filterbar ul .hlist li + li:before {
   display: block;
   float: right;
 }
-
-#footer ul li {
+.right ul li {
   line-height: 1.2em;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-#footer ul li a {
+.right ul li a {
   color: #fff;
   font-size: .8em;
 }
-
-#footer .signoff p {
+.right .signoff p {
   margin-bottom: 0;
 }

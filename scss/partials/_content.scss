@@ -2,7 +2,7 @@
 // ------------------------------------------------------------------------------
 
 #main-content {
-  background: #e5e5e5;
+  background: $another-white;
 }
 
 //
@@ -18,22 +18,22 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  background: #fff;
+  background: $header-white;
   padding: 50px 30px;
 }
 
 #slider {
-  width: 100%;
-  max-width: 960px;
   margin-bottom: 40px;
+  max-width: 960px;
+  width: 100%;
 }
 
 .vereniging-titel {
-  width: 100%;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid $another-white;
   margin-bottom: 20px;
-  padding-bottom: 20px;
   overflow: auto;
+  padding-bottom: 20px;
+  width: 100%;
 
   .left {
     float: left;
@@ -42,13 +42,13 @@
 }
 
 .map {
+  border: 1px solid $another-white;
   float: right;
-  width: 35%;
   min-height: 250px;
-  border: 1px solid #e5e5e5;
+  width: 35%;
 }
 
-p.ondertitel {
+p .ondertitel {
   margin-top: -1.5em;
 }
 
@@ -63,22 +63,22 @@ p.ondertitel {
   padding: 10px;
   width: 800px;
 
-  img.alignleft {
+  img .alignleft {
     float: left;
     margin: 5px;
   }
-}
 
-.takkenitem h2 {
-  border-bottom: 1px dashed $meloen-groen;
-  color: $meloen-groen;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+  h2 {
+    border-bottom: 1px dashed $meloen-groen;
+    color: $meloen-groen;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-.takkenitem li {
-  margin: 15px;
+  li {
+    margin: 15px;
+  }
 }
 
 .leidingitem {
@@ -90,6 +90,10 @@ p.ondertitel {
   overflow: auto;
   padding: 20px;
   width: 100%;
+
+  li {
+    margin: 15px;
+  }
 }
 
 .leidingitem:last-of-type {
@@ -100,11 +104,6 @@ p.ondertitel {
 //    float: left;
 //    margin: 0 30px 30px 0
 // }
-
-
-.leidingitem li {
-  margin: 15px;
-}
 
 .more {
   color: #aaaca4;
@@ -187,6 +186,11 @@ p.ondertitel {
   min-height: 50px;
   text-align: center;
   width: 100%;
+
+  li .first {
+    background: url($image-home) no-repeat center 12px;
+    margin: 0 10px;
+  }
 }
 
 #main-nav ul {
@@ -197,32 +201,32 @@ p.ondertitel {
 #main-nav li {
   display: block;
   float: left;
-  line-height: 50px;  // this should be the same as your #main-nav height
   height: 50px;       // this should be the same as your #main-nav height
+  line-height: 50px;  // this should be the same as your #main-nav height
   margin: 0;
   padding: 0;         // only needed if you don't have a reset
   position: relative; // this is needed in order to position sub menus
 }
 
 #main-nav li a {
-  display: block;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 10px;
   color: #fff;
+  display: block;
 
   font: {
     size: .95em;
     weight: 700;
   }
 
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+
   text-decoration: none;
   text-transform: uppercase;
-
 }
 
 #main-nav li:hover > a {
-  color: #4e620f;
+  color: $content-dark-green;
 }
 
 #main-nav ul ul {
@@ -267,11 +271,6 @@ p.ondertitel {
   font-weight: bold;
 }
 
-#main-nav li.first {
-  background: url($image-home) no-repeat center 12px;
-  margin: 0 10px;
-}
-
 #main-nav li.first:hover {
   background: url($image-home-hover) no-repeat center 12px;
 }
@@ -290,7 +289,7 @@ p.ondertitel {
   }
 
   .test2 {
-    color: #fff;
+    color: $header-white;
     left: -20px;
     position: absolute;
     top: 15px;
