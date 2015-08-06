@@ -50,7 +50,7 @@ Navigate to the project root directory,
 And then run the command: 
 
 ```bash 
-scss stIdSelectoryles.scss path/to/output/<filename>.scss
+scss styles.scss path/to/output/<filename>.scss
 ```
 
 #### Using GulpJS:
