@@ -737,14 +737,14 @@ img .alignnone {
   margin-bottom: 48px;
   text-transform: uppercase;
 }
-
-.comment-navigation .nav-next,
 .comment-navigation .nav-previous {
   display: inline-block;
 }
-
 .comment-navigation .nav-previous a {
   margin-right: 10px;
+}
+.comment-navigation .nav-next {
+  display: inline-block;
 }
 
 #comment-nav-above {

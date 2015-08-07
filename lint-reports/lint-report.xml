@@ -10,8 +10,8 @@
     <error source="SelectorDepth" line="10" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="ColorVariable" line="11" column="12" length="7" severity="warning" message="Color literals like `#5b7115` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="MergeableSelector" line="14" column="1" length="1" severity="warning" message="Merge rule `ul li` with rule on line 10" />
-    <error source="MergeableSelector" line="19" column="1" length="1" severity="warning" message="Merge rule `ul li a` with rule on line 14" />
     <error source="SelectorDepth" line="19" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="MergeableSelector" line="19" column="1" length="1" severity="warning" message="Merge rule `ul li a` with rule on line 14" />
     <error source="ColorVariable" line="20" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_comments.scss">
@@ -30,71 +30,67 @@
     <error source="QualifyingElement" line="211" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
     <error source="ColorVariable" line="228" column="10" length="7" severity="warning" message="Color literals like `#2b2b2b` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="ColorVariable" line="236" column="10" length="7" severity="warning" message="Color literals like `#41a62a` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="MergeableSelector" line="256" column="1" length="1" severity="warning" message="Merge rule `.comment-navigation .nav-previous a` with rule on line 244" />
-    <error source="IdSelector" line="260" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="ColorVariable" line="272" column="15" length="4" severity="warning" message="Color literals like `#eee` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="ColorVariable" line="295" column="21" length="7" severity="warning" message="Color literals like `#bdd732` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="ColorVariable" line="296" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="DuplicateProperty" line="297" column="3" length="30" severity="warning" message="Property `color` already defined on line 296" />
-    <error source="MergeableSelector" line="309" column="1" length="1" severity="warning" message="Merge rule `.entry-heading` with rule on line 271" />
-    <error source="PropertySortOrder" line="310" column="3" length="11" severity="warning" message="Properties should be ordered border-bottom, margin-bottom, padding-bottom, width" />
-    <error source="ColorVariable" line="313" column="18" length="17" severity="warning" message="Color literals like `#e5e5e5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="PropertySortOrder" line="318" column="3" length="18" severity="warning" message="Properties should be ordered background, color, font-size, font-weight, padding-left" />
-    <error source="ColorVariable" line="339" column="10" length="4" severity="warning" message="Color literals like `#999` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="PropertySortOrder" line="346" column="3" length="8" severity="warning" message="Properties should be ordered color, font, left, margin, padding-left" />
+    <error source="IdSelector" line="263" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="ColorVariable" line="275" column="15" length="4" severity="warning" message="Color literals like `#eee` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="298" column="21" length="7" severity="warning" message="Color literals like `#bdd732` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="299" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="DuplicateProperty" line="300" column="3" length="30" severity="warning" message="Property `color` already defined on line 299" />
+    <error source="MergeableSelector" line="312" column="1" length="1" severity="warning" message="Merge rule `.entry-heading` with rule on line 274" />
+    <error source="PropertySortOrder" line="313" column="3" length="11" severity="warning" message="Properties should be ordered border-bottom, margin-bottom, padding-bottom, width" />
+    <error source="ColorVariable" line="316" column="18" length="17" severity="warning" message="Color literals like `#e5e5e5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="321" column="3" length="18" severity="warning" message="Properties should be ordered background, color, font-size, font-weight, padding-left" />
+    <error source="ColorVariable" line="342" column="10" length="4" severity="warning" message="Color literals like `#999` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="349" column="3" length="8" severity="warning" message="Properties should be ordered color, font, left, margin, padding-left" />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_content.scss">
     <error source="IdSelector" line="4" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="PropertySortOrder" line="18" column="3" length="11" severity="warning" message="Properties should be ordered background, margin, max-width, padding, width" />
     <error source="IdSelector" line="25" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="ColorVariable" line="58" column="15" length="30" severity="warning" message="Color literals like `#fcfcfc` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="ColorVariable" line="59" column="11" length="17" severity="warning" message="Color literals like `#d7d4cc` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="ColorVariable" line="85" column="15" length="30" severity="warning" message="Color literals like `#fcfcfc` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="ColorVariable" line="86" column="11" length="17" severity="warning" message="Color literals like `#d7d4cc` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="ColorVariable" line="109" column="10" length="7" severity="warning" message="Color literals like `#aaaca4` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="ImportantRule" line="176" column="3" length="21" severity="warning" message="!important should not be used" />
     <error source="IdSelector" line="183" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="ColorVariable" line="184" column="15" length="7" severity="warning" message="Color literals like `#748d26` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="IdSelector" line="196" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="QualifyingElement" line="190" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
     <error source="MergeableSelector" line="196" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul` with rule on line 183" />
-    <error source="MergeableSelector" line="201" column="1" length="1" severity="warning" message="Merge rule `#main-nav li` with rule on line 183" />
+    <error source="IdSelector" line="196" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="IdSelector" line="201" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="IdSelector" line="211" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="MergeableSelector" line="201" column="1" length="1" severity="warning" message="Merge rule `#main-nav li` with rule on line 183" />
     <error source="MergeableSelector" line="211" column="1" length="1" severity="warning" message="Merge rule `#main-nav li a` with rule on line 183" />
+    <error source="IdSelector" line="211" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="ColorVariable" line="212" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="IdSelector" line="228" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="228" column="1" length="1" severity="warning" message="Merge rule `#main-nav li:hover &gt; a` with rule on line 183" />
     <error source="MergeableSelector" line="232" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul` with rule on line 183" />
     <error source="IdSelector" line="232" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="SelectorDepth" line="239" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
-    <error source="MergeableSelector" line="239" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li` with rule on line 183" />
     <error source="IdSelector" line="239" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="MergeableSelector" line="239" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li` with rule on line 183" />
+    <error source="SelectorDepth" line="239" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="ColorVariable" line="241" column="15" length="7" severity="warning" message="Color literals like `#748d26` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="IdSelector" line="251" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="MergeableSelector" line="251" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li a` with rule on line 183" />
     <error source="SelectorDepth" line="251" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
+    <error source="MergeableSelector" line="251" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li a` with rule on line 183" />
     <error source="SelectorDepth" line="257" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
-    <error source="MergeableSelector" line="257" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul li:hover &gt; ul` with rule on line 183" />
     <error source="IdSelector" line="257" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="MergeableSelector" line="261" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li ul` with rule on line 183" />
-    <error source="IdSelector" line="261" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="MergeableSelector" line="257" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul li:hover &gt; ul` with rule on line 183" />
     <error source="SelectorDepth" line="261" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
-    <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="IdSelector" line="261" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="MergeableSelector" line="261" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li ul` with rule on line 183" />
+    <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_parent` should be written in lowercase with hyphens" />
     <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_ancestor` should be written in lowercase with hyphens" />
-    <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_parent` should be written in lowercase with hyphens" />
+    <error source="IdSelector" line="267" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="SelectorFormat" line="267" column="1" length="1" severity="warning" message="Selector `current_page_item` should be written in lowercase with hyphens" />
     <error source="ColorVariable" line="270" column="10" length="7" severity="warning" message="Color literals like `#4e620f` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="MergeableSelector" line="274" column="1" length="1" severity="warning" message="Merge rule `#main-nav li.first:hover` with rule on line 183" />
     <error source="IdSelector" line="274" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="MergeableSelector" line="274" column="1" length="1" severity="warning" message="Merge rule `#main-nav li.first:hover` with rule on line 183" />
     <error source="QualifyingElement" line="274" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_events.scss">
     <error source="ImportantRule" line="18" column="3" length="40" severity="warning" message="!important should not be used" />
     <error source="PropertySortOrder" line="35" column="3" length="18" severity="warning" message="Properties should be ordered background-color, border-radius, text-align, width" />
-    <error source="ImportantRule" line="79" column="3" length="25" severity="warning" message="!important should not be used" />
-    <error source="ImportantRule" line="92" column="3" length="20" severity="warning" message="!important should not be used" />
     <error source="SelectorDepth" line="112" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="SelectorDepth" line="128" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="SelectorDepth" line="135" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />

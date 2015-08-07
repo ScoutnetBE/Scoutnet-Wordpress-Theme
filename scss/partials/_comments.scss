@@ -246,15 +246,18 @@
   line-height: 2;
   margin-bottom: 48px;
   text-transform: uppercase;
-}
 
-.comment-navigation .nav-next,
-.comment-navigation .nav-previous {
-  display: inline-block;
-}
+  .nav-previous {
+    display: inline-block;
 
-.comment-navigation .nav-previous a {
-  margin-right: 10px;
+    a {
+      margin-right: 10px;
+    }
+  }
+
+  .nav-next {
+    display: inline-block;
+  }
 }
 
 #comment-nav-above {
