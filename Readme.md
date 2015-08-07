@@ -35,12 +35,14 @@ scss/
 - Ruby. 
 - NodeJS
 - Ruby gem scss
+- Checkstyle gem.
 
 ## Installation.
 
 1. Open your terminal. or command prompt. 
 2. Install Sass. `gem install sass`
-3. Double check the installation. `sass -v`.
+3. Install checkstyle reporter. `gem install scss_lint_reporter_checkstyle`
+4. Double check the installation. `sass -v`.
 
 ## Compile sass 
 

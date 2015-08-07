@@ -13,6 +13,19 @@ var sass        = require('gulp-ruby-sass');
 var sourcemaps  = require('gulp-sourcemaps');
 var minifyCss   = require('gulp-minify-css');
 var scsslint    = require('gulp-scss-lint');
+var ftp         = require( 'vinyl-ftp' );
+var gutil       = require( 'gulp-util' );
+
+
+// FTP Credentials
+// =====================================================================================
+var conn = ftp.create( {
+    host:     'ftp.scoutnet.be',
+    user:     '',
+    password: '',
+    parallel: 10,
+    log:      gutil.log
+} );
 
 // GULP TASKS
 // =====================================================================================
@@ -68,4 +81,15 @@ gulp.task('lint', 'Lint your SCSS code.', function() {
 // So use it only when you are developing this scss files.
 gulp.task('watch', 'Watch for changes', function() {
     gulp.watch('scss/style.scss', ['compile']);
+});
+
+// Add a new a stylesheet.
+
+var stylesheet = 'compiled-stylesheet/style.css';
+var sourcemap  = 'compiled-stylesheet/sourcemap/style.css.map';
+
+gulp.task('deploy', 'Upload new stylesheet to server (FTP)', function() {
+    return gulp.src([stylesheet, sourcemap], { buffer: false })
+        .pipe(conn.newer('/public_html/wordpress/wp-content/themes/scoutnet')) // only upload newer files
+        .pipe(conn.dest('/public_html/wordpress/wp-content/themes/scoutnet'));
 });
