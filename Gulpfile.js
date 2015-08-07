@@ -21,8 +21,8 @@ var gutil       = require( 'gulp-util' );
 // =====================================================================================
 var conn = ftp.create( {
     host:     'ftp.scoutnet.be',
-    user:     '',
-    password: '',
+    user:     'sn1145_root',
+    password: '0474834880',
     parallel: 10,
     log:      gutil.log
 } );

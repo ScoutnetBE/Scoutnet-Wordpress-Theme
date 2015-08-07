@@ -13,14 +13,14 @@
   width: 45px;
 }
 
-ul .event-list-view,
-ul .single-event-view {
+ul.event-list-view,
+ul.single-event-view {
   list-style: outside none none !important;
   margin: 1.5em 0 2em;
   padding: 0;
 }
 
-li .event {
+li.event {
   clear: both;
   margin: 0 .5em 2.5em;
   zoom: 1;
@@ -118,27 +118,27 @@ div .feed {
   }
 }
 
-div .filterbar,
-div .filterbar div {
+div.filterbar,
+div.filterbar div {
   clear: both;
   margin: 1em 0;
   vertical-align: middle;
 }
 
-div .filterbar select .dropdown,
-div .filterbar ul .hlist,
-div .filterbar a .link {
+div.filterbar select.dropdown,
+div.filterbar ul.hlist,
+div.filterbar a.link {
   margin: 0 3px;
   vertical-align: middle;
 }
 
-div .filterbar ul .hlist li {
+div.filterbar ul.hlist li {
   float: left;
   list-style: none;
   margin: 0;
 }
 
-div .filterbar ul .hlist li + li:before {
+div.filterbar ul.hlist li + li:before {
   content: '|';
   padding: 0 1px;
 }
