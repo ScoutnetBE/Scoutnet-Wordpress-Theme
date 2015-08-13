@@ -2,10 +2,10 @@
 // ------------------------------------------------------------------------------
 
 .breadcrumbs {
-  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+  color: $dark-gray;
+  font-size: .8em;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #f5f5f5;
-  font-size: .8em;
-  color: $dark-gray;
+  width: 100%;
 }
