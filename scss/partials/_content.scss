@@ -2,15 +2,19 @@
 // ------------------------------------------------------------------------------
 
 // todo hypens
-// class current_page_parent & current_page_ancestor need,
-// to be written in lowercase with hypens.
-// Overleg met joris nodig
+// the following classes:
+//
+// - current_page_parent
+// - current_page_ancestor
+// - current_page-item
+//
+// need to be written in lowercase with hypens.
+// Discus needed with joris.
 
 #main-content {
   background: $another-white;
 }
 
-//
 // #main-content {
 //   background-color: #934722;
 //   background-image: url('http://wordpress.scoutsinfo.be/wp-content/uploads/2014/08/background.png');
