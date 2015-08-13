@@ -19,13 +19,13 @@ var gutil       = require('gulp-util');
 
 // FTP Credentials
 // =====================================================================================
-var conn = ftp.create( {
+var conn = ftp.create({
     host:     'ftp.scoutnet.be',
     user:     'sn1145_root',
     password: '0474834880',
     parallel: 10,
     log:      gutil.log
-} );
+});
 
 // GULP TASKS
 // =====================================================================================
