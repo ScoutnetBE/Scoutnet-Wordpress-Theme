@@ -13,8 +13,8 @@ var sass        = require('gulp-ruby-sass');
 var sourcemaps  = require('gulp-sourcemaps');
 var minifyCss   = require('gulp-minify-css');
 var scsslint    = require('gulp-scss-lint');
-var ftp         = require( 'vinyl-ftp' );
-var gutil       = require( 'gulp-util' );
+var ftp         = require('vinyl-ftp');
+var gutil       = require('gulp-util');
 
 
 // FTP Credentials
