@@ -2,10 +2,10 @@
 // ------------------------------------------------------------------------------
 
 #buttons {
-  width: 100%;
-  height: 50px;
   background: $kaki-groen url($image-buttons-backgound) repeat-x;
+  height: 50px;
   text-align: center;
+  width: 100%;
 
   ul li a:hover {
     color: #5b7115;

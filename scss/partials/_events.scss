@@ -32,10 +32,10 @@ li.event {
 
 .event-list .start-date,
 .event-list .end-date {
+  background-color: $donker-groen;
+  border-radius: 5px;
   text-align: center;
   width: 3.2em;
-  border-radius: 5px;
-  background-color: $donker-groen;
 }
 
 .event-list .start-date {

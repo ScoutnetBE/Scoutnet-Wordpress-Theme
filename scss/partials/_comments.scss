@@ -59,14 +59,14 @@
 .comment-list .trackback a,
 .comment-list .pingback a,
 .comment-metadata a {
-  color: #767676;
+  color: $donker-grijs;
 }
 
 .comment-author a:hover,
 .comment-list .pingback a:hover,
 .comment-list .trackback a:hover,
 .comment-metadata a:hover {
-  color: #41a62a;
+  color: $groen;
 }
 
 .comment-list article,
@@ -272,7 +272,7 @@
 // Comments link
 
 .entry-heading .comments-link a {
-  background: #eee url('images/comment-bubble.png') no-repeat;
+  background: $comment-white url('images/comment-bubble.png') no-repeat;
   color: $dark-gray;
   float: right;
 
@@ -295,8 +295,8 @@
 .entry-heading .comments-link a:hover,
 .entry-heading .comments-link a:focus,
 .entry-heading .comments-link a:active {
-  background-color: #bdd732;
-  color: #fff;
+  background-color: $licht-groen;
+  color: $header-white;
   color: rgba(255, 255, 255, .8);
 }
 
@@ -313,7 +313,7 @@
   width: 100%;
   padding-bottom: 10px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid $another-white;
 }
 
 span .entry-date {
@@ -339,7 +339,7 @@ span .entry-date {
 }
 
 .comment-meta {
-  color: #999;
+  color: $grijs;
 
   font: {
     size: .9em;
