@@ -51,33 +51,32 @@
     <error source="MergeableSelector" line="210" column="1" length="1" severity="warning" message="Merge rule `#main-nav li` with rule on line 192" />
     <error source="IdSelector" line="220" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="220" column="1" length="1" severity="warning" message="Merge rule `#main-nav li a` with rule on line 192" />
-    <error source="ColorVariable" line="221" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="MergeableSelector" line="237" column="1" length="1" severity="warning" message="Merge rule `#main-nav li:hover &gt; a` with rule on line 192" />
     <error source="IdSelector" line="237" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="MergeableSelector" line="241" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul` with rule on line 192" />
+    <error source="MergeableSelector" line="237" column="1" length="1" severity="warning" message="Merge rule `#main-nav li:hover &gt; a` with rule on line 192" />
     <error source="IdSelector" line="241" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="MergeableSelector" line="241" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul` with rule on line 192" />
+    <error source="SelectorDepth" line="248" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="IdSelector" line="248" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="248" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li` with rule on line 192" />
-    <error source="SelectorDepth" line="248" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="ColorVariable" line="250" column="15" length="7" severity="warning" message="Color literals like `#748d26` should only be used in variable declarations; they should be referred to via variable everywhere else." />
     <error source="IdSelector" line="260" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="260" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li a` with rule on line 192" />
     <error source="SelectorDepth" line="260" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
-    <error source="SelectorDepth" line="266" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="MergeableSelector" line="266" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul li:hover &gt; ul` with rule on line 192" />
     <error source="IdSelector" line="266" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="SelectorDepth" line="266" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
     <error source="IdSelector" line="270" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="SelectorDepth" line="270" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
     <error source="MergeableSelector" line="270" column="1" length="1" severity="warning" message="Merge rule `#main-nav ul ul li ul` with rule on line 192" />
+    <error source="IdSelector" line="276" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="IdSelector" line="276" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="SelectorFormat" line="276" column="1" length="1" severity="warning" message="Selector `current_page_ancestor` should be written in lowercase with hyphens" />
+    <error source="SelectorFormat" line="276" column="1" length="1" severity="warning" message="Selector `current_page_parent` should be written in lowercase with hyphens" />
     <error source="SelectorFormat" line="276" column="1" length="1" severity="warning" message="Selector `current_page_item` should be written in lowercase with hyphens" />
     <error source="IdSelector" line="276" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="IdSelector" line="276" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="IdSelector" line="276" column="1" length="1" severity="warning" message="Avoid using id selectors" />
-    <error source="SelectorFormat" line="276" column="1" length="1" severity="warning" message="Selector `current_page_parent` should be written in lowercase with hyphens" />
-    <error source="SelectorFormat" line="276" column="1" length="1" severity="warning" message="Selector `current_page_ancestor` should be written in lowercase with hyphens" />
     <error source="ColorVariable" line="279" column="10" length="7" severity="warning" message="Color literals like `#4e620f` should only be used in variable declarations; they should be referred to via variable everywhere else." />
-    <error source="IdSelector" line="283" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="MergeableSelector" line="283" column="1" length="1" severity="warning" message="Merge rule `#main-nav li.first:hover` with rule on line 192" />
+    <error source="IdSelector" line="283" column="1" length="1" severity="warning" message="Avoid using id selectors" />
     <error source="QualifyingElement" line="283" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
   </file>
   <file name="/Users/tim/Documents/github-repos/Scoutnet-Wordpress-Theme/scss/partials/_events.scss">
