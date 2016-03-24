@@ -5,6 +5,7 @@ Scoutnet - SCSS Wordpress template.
 [![Build Status](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme.svg?branch=%23fix-SCSS-lint-issues)](https://travis-ci.org/ScoutnetBE/Scoutnet-Wordpress-Theme)
 [![devDependency Status](https://david-dm.org/ScoutnetBE/Scoutnet-Wordpress-Theme/dev-status.svg)](https://david-dm.org/ScoutnetBE/Scoutnet-Wordpress-Theme#info=devDependencies)
 
+***This SCSS port is out of support***
 The Sass file for the wordpress theme, That is currently in active development by Scoutnet Belguim. 
 
 ## What's included in the sass folder?
